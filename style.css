@@ -1,0 +1,60 @@
+
+.gallery {
+    overflow: hidden;
+    box-shadow: 1px 1px 20px  grey;
+    margin:0;
+    padding: 0;
+    
+  }
+
+  .container1{
+    margin:20px 30px;
+  }
+  .heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+ 
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  .row .card1{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .gallery:hover{
+    cursor: pointer;
+    opacity: 20%;
+    transition:all 0.3s ease-out;
+    transform:scale(1.1) ;
+  }
+
+ 
+  .question{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+ .refresh{
+  display: flex;
+  justify-content: center;
+  margin-bottom:15px;
+ }
+ .btn{
+   box-shadow: 1px 1px 10px;
+   cursor: pointer;
+   
+ }
+.btn:hover{
+  box-shadow: none;
+  background-color: rgb(143, 143, 143);
+ 
+}
+.keyword{
+   font-weight: 600;
+}
+.invi{
+  visibility: hidden;
+}
